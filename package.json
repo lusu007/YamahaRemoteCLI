@@ -1,0 +1,20 @@
+{
+  "name": "yamaha-remote-cli",
+  "version": "0.0.1",
+  "description": "Yamaha Remote Control CLI",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "yamaha": "./command.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "inquirer": "^4.0.0",
+    "yamaha-nodejs": "^0.7.8"
+  }
+}
